@@ -14,7 +14,6 @@
 
 header{
   background-color: #ebf5f1;
-  grid-area: header;
 }
 
 header a{
@@ -25,7 +24,6 @@ header a{
 /* NAV */
 
 nav{
-  grid-area: nav;
   background-color: #ebf5f1;
   width: 100%;
   position: sticky;
@@ -50,19 +48,45 @@ nav a:hover{
   text-decoration: underline;
 }
 
-.presentation {
+/* .presentation {
   width: 100%;
   height: calc(100vh - 100px);
   background-image: url(./img/PRESENTACION/presentacion.jpg);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+} */
+
+.presentation{
+  height: 720px;
+  font-size: 25px;
+}
+
+.presentation-video{
+  height: 800px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.presentation-video video{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.presentation-content{
+  color: #fff;
+  text-align: center;
+  padding: 250px 0;
+  margin: auto;
 }
 
 /* PRODUCTOS */
 
 .card{
-  grid-area: card;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -287,17 +311,3 @@ footer ul li{
   }
 }
 
-@media(min-width: 768px){
-  .grilla-principal{ 
-    display: grid;
-    grid-template-areas: 
-    "header header header"
-    "nav nav nav"
-    "about about about"
-    "card card card"
-    "iframe iframe iframe"
-    "contacto contacto contacto"
-    "footer footer footer";
-  }
-
-}
