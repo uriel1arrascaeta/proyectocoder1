@@ -1,0 +1,12 @@
+@media (max-width:700px){
+    .carta{
+     display: grid;
+     grid-template-areas: 
+   "parrafo1 parrafo1"
+   "img1 img1"
+   "parrafo2 parrafo2"
+   "img2 img2"
+   ;
+   }
+   
+ }
