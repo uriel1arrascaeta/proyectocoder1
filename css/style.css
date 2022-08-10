@@ -1,3 +1,25 @@
+.facebook {
+  color: hwb(340 9% 36%); }
+
+.instagram {
+  color: #40bef0; }
+
+.twitter {
+  color: #058fb9; }
+
+.primerEstilo, .segundoEstilo {
+  font-family: Helvetica, sans-serif;
+  text-align: center; }
+
+.segundoEstilo {
+  font-size: 25px;
+  font-weight: bold; }
+
+.parrafosConEstilo {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 3rem;
+  text-align: center; }
+
 header {
   background-color: #ebf5f1; }
   header a {

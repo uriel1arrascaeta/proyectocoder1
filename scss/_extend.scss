@@ -1,0 +1,10 @@
+.primerEstilo{
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+}
+
+.segundoEstilo{
+   @extend .primerEstilo; 
+   font-size: 25px;
+   font-weight: bold; 
+}
