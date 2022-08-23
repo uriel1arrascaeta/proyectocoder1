@@ -1,4 +1,4 @@
-$mapRedes:(facebook:hwb(340 9% 36%), instagram:#40bef0,twitter:#058fb9);
+$mapRedes:(facebook:hwb(234 12% 36%),instagram:#ef15,twitter:#058fb9);
 
 @each $red, $color in $mapRedes{
     .#{$red}{
